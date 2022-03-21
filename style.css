@@ -1,20 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+body{
+    width: 1366px;
+    margin: auto;
+    background-color: #F8F7F1;
+}
 
 .header{
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
     margin-left: 100px;
     margin-right: 90px;
     justify-content: space-between;
+    
 }
 
-.menu{
-    display: inline;
-    flex-direction: row;
-}
 
 .logo{
     width: 80px;
     height: 80px;
 
+}
+
+.contacto{
+  font-family: 'Gill Sans';
+  color: #0D2F3F;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.bot{
+    font-size: 18px;
+    display: inline;
+    align-items: center;
+    font-family: 'Roboto Condensed', 'Lucida Sans';
+    font-style: inherit;
+    padding: 35px;
+    color: #0D2F3F;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.hero{
+    width: 1366px;
+    height: 700px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(/images/equisde.png);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    background-size: contain;
+}
+
+
+.columnaizq{
+    width: 300px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columnader{
+    width: 300px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 466px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nombre{
+    margin-left: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    color: #0D2F3F;
+}
+
+.exps{
+    flex-flow: row;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#correo{
+  color: orangered;
+}
+
+#diez{
+    font-family: 'Poppins-bold';
+    font-size: 50px;
+    color: #0D2F3F;
+    font-weight: bolder;
+}
+
+#textexp{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+}
+
+#frase{
+    color: #0D2F3F;
+    font-family: 'Roboto Condensed', monospace;
+}
+
+.campos{
+    padding: 50px;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
