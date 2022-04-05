@@ -224,12 +224,13 @@ body{
 
 }
 
-h1{
+.tituloexp{
     font-family: 'Roboto Condensed', serif;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bolder;
     text-align: center; 
-    color: #0D2F3F; 
+    color: #0D2F3F;
+    margin-bottom: -60px; 
 }
 
 #workexp{
@@ -239,7 +240,7 @@ h1{
     background-image: url(/images/deco.PNG);
     background-repeat: no-repeat;
     background-position: 600px;
-    background-position-y: 270px;
+    background-position-y: 180px;
 }
 
 .cuerpoexp{
@@ -425,36 +426,31 @@ hr{
     margin-top: -20px;
 }
 
-#footdb{
-    width: 100%;
-    height: 100vh;
+
+
+#footbd{
+    height: 90vh;
     display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
 #colum5izq{
-    width: 70vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #colum5der{
-    width: 70vh;
     display: flex;
     flex-direction: column;
-    margin-left: 966px;
     align-items: center;
-    margin-top: -360px;
 }
 
 .eslog{
     font-family: 'Roboto Condensed', serif;
     color: #0D2F3F;
-    font-size: 50px;
+    font-size: 60px;
     text-align: left;
 }
 
@@ -471,14 +467,14 @@ hr{
 #inftit{
     font-family: 'Roboto Condensed', serif;
     color: #0D2F3F;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 #inftext{
     font-family: 'Roboto Condensed', serif;
     color: #0D2F3F;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nav{
